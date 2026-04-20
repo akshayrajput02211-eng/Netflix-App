@@ -1,0 +1,42 @@
+.title-cards {
+  padding: 20px 60px;
+}
+
+.title-cards h2 {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.card-list {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.card-list::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  min-width: 200px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card p {
+  color: white;
+  font-size: 14px;
+  margin-top: 8px;
+  text-align: center;
+}
