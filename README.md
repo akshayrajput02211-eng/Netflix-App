@@ -1,16 +1,76 @@
-# React + Vite
+# 🎬 Netflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Netflix clone built using React.js that replicates the UI and basic functionality of Netflix.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 🔥 Attractive Home Page UI
+* 🎥 Movie Cards Section
+* 🎯 Hero Banner with Background Image
+* 📂 Category-wise Movie Lists
+* 📱 Responsive Design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* ⚛️ React.js
+* 🎨 CSS
+* ⚡ Vite
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+ ├── assets/
+ ├── components/
+ │    ├── Navbar/
+ │    ├── Footer/
+ │    ├── TitleCards/
+ ├── pages/
+ │    ├── Home/
+ │    ├── Player/
+ ├── App.jsx
+ ├── main.jsx
+```
+
+---
+
+## ▶️ Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 🌐 Live Demo
+
+👉 (Add your deployed link here after deployment)
+
+---
+
+## 📌 Future Improvements
+
+* 🔐 User Authentication (Login/Signup)
+* 🎬 Real Movie Data (TMDB API)
+* 💳 Payment Integration
+* 📺 Video Streaming Feature
+
+---
+
+## 👨‍💻 Author
+
+Akshay Kumar
+GitHub: https://github.com/akshayrajput02211-eng
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, please ⭐ the repo!
